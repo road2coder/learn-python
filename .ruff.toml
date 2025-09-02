@@ -1,0 +1,8 @@
+exclude = [
+    ".git",
+    ".venv",
+]
+[format]
+quote-style = "single"
+indent-style = "space"
+

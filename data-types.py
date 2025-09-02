@@ -11,14 +11,14 @@ flag = False
 print(flag)
 
 # 字符串
-s: str = "hello"
-print(s, len(s), f"{s} python")
-print(f"pi ≈ {pi:.2f}")
+s: str = 'hello'
+print(s, len(s), f'{s} python')
+print(f'pi ≈ {pi:.2f}')
 
 # 列表
-lst: list = [123, 321, "abc"]
+lst: list = [123, 321, 'abc']
 print(lst)
-lst.append("cba")
+lst.append('cba')
 print(lst)
 nums: list[int] = [123, 321]
 numbers = [1, 2, 3, 4, 5]
@@ -29,15 +29,15 @@ squares = list(map(lambda x: x**2, numbers))
 print(squares)
 
 # 元组
-t: tuple[str, int] = ("Bob", 18)
+t: tuple[str, int] = ('Bob', 18)
 print(t)
 
 # 集合
 ids: set[int] = {123, 31, 123}
 print(ids)
 print(ids, 321 in ids)
-sexes = frozenset({"男", "女"})
-print(sexes, "男" in sexes)
+sexes = frozenset({'男', '女'})
+print(sexes, '男' in sexes)
 
 # 范围
 r1: range = range(3, 5)
@@ -48,8 +48,8 @@ for i in r2:
 print(list(r2))
 
 # 字典
-person = {"name": "Bob", "age": 18}
+person = {'name': 'Bob', 'age': 18}
 print(person)
-print(person["name"])  # 不存在会报错
-person["sex"] = "男"
+print(person['name'])  # 不存在会报错
+person['sex'] = '男'
 print(person)
