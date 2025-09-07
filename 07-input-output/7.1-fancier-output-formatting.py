@@ -1,4 +1,5 @@
 import math
+import json
 
 
 # f-string
@@ -69,8 +70,6 @@ with open('test.txt', 'r+', encoding='utf-8') as f:
 
 
 # json 模块可以实现简单的序列化和反序列化
-import json
-
 x = [1, 'simple', True]
 print(json.dumps(x))
 with open('test.json', 'r+', encoding='utf-8') as f:
